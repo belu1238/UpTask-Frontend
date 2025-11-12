@@ -66,11 +66,11 @@ export default function LoginView() {
         <div className="flex flex-col gap-5">
           <label
             className="font-normal text-2xl"
-          >Password</label>
+          >Contraseña</label>
 
           <input
             type="password"
-            placeholder="Password de Registro"
+            placeholder="Contraseña de Registro"
             className="w-full p-3  border-gray-300 border"
             {...register("password", {
               required: "El Password es obligatorio",
